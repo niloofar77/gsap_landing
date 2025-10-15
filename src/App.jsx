@@ -8,6 +8,7 @@ import Hero from './components/Hero'
 import Cockatils from './components/Cockatils'
 import About from './components/About'
 import Art from './components/Art'
+import Menu from './components/Menu'
 gsap.registerPlugin(ScrollTrigger,SplitText)
 function App() {
 
@@ -19,8 +20,8 @@ function App() {
     <Hero></Hero>
     <Cockatils></Cockatils>
     <About></About>
-<Art></Art>
-
+    <Art></Art>
+    <Menu></Menu>
   </main>
      
     </>
